@@ -143,7 +143,7 @@ public class BancoNinja {
                             }
                             int opcaoConta3 = scanner.nextInt();
                             scanner.nextLine();
-1
+
                             System.out.println("Informe o valor a ser depósitado (R$XXXX.XX):");
                             double deposito2 = scanner.nextDouble();
                             scanner.nextLine();
