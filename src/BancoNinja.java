@@ -10,17 +10,28 @@ public class BancoNinja {
         int menu1 = 0;
 
         while (menu1 != 6) {
-            System.out.println("============ Banco Ninja ============" +
-                    "\n  " +
-                    "\n Seja bem vindo - Escolha uma das opções abaixo:" +
-                    "\n  " +
-                    "\n 1 - Criar uma conta" +
-                    "\n 2 - Verificar saldo de uma conta" +
-                    "\n 3 - Depositar em uma conta" +
-                    "\n 4 - Sacar dinheiro de uma conta" +
-                    "\n 5 - Transferir dinheiro entre contas" +
-                    "\n 6 - Sair" +
-                    "\n  ");
+            System.out.println("""
+                    ============ Banco Ninja ============\
+                    
+                      \
+                    
+                     Seja bem vindo - Escolha uma das opções abaixo:\
+                    
+                      \
+                    
+                     1 - Criar uma conta\
+                    
+                     2 - Verificar saldo de uma conta\
+                    
+                     3 - Depositar em uma conta\
+                    
+                     4 - Sacar dinheiro de uma conta\
+                    
+                     5 - Transferir dinheiro entre contas\
+                    
+                     6 - Sair\
+                    
+                     \s""");
             menu1 = scanner.nextInt();
             scanner.nextLine();
 
